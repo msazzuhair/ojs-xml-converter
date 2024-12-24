@@ -2,6 +2,12 @@
 
 This project contains PHP script for converting Open Journal Systems (OJS) exported data between specific versions.
 
+## Running The Converter
+
+```bash
+php converter.php <input-file-path> <output-file-path>
+```
+
 ## Progress
 
 | From  | To    | Converters |
