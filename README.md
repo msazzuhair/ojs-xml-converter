@@ -4,6 +4,8 @@ This project contains PHP script for converting Open Journal Systems (OJS) expor
 
 ## Running The Converter
 
+1. Find the correct `convert.php` according to the version you are going to convert from/to. Every version has separate converter script for issues, users, etc.
+2. Run the script below
 ```bash
 php convert.php <input-file-path> <output-file-path>
 ```
@@ -12,7 +14,7 @@ php convert.php <input-file-path> <output-file-path>
 
 | From  | To    | Converters |
 | ----- | ----- | ---------- |
-| 3.1.0 | 3.3.0 | Issues ✅<br>Users (Planned) |
+| 3.1.0 | 3.3.0 | [Issues](3.1.0-3.3.0/issues/convert.php) ✅<br>Users (Planned) |
 
 
 ## Contributing
