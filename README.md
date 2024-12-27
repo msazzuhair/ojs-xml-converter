@@ -5,7 +5,7 @@ This project contains PHP script for converting Open Journal Systems (OJS) expor
 ## Running The Converter
 
 ```bash
-php converter.php <input-file-path> <output-file-path>
+php convert.php <input-file-path> <output-file-path>
 ```
 
 ## Progress
